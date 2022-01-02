@@ -39,9 +39,10 @@ Understanding language is fundamental to human interaction. Our brains have evol
 * **Joachim Rahmfeld**: Tuesday at 5:30pm PST
 * **Mike Tamir/Paul Spiegelhalter**: Wednesday immediately after his live session
 * **Natalie Ahn**: TBD
-* **Gurdit Chahal**: Wednesday at noon PST
-* **Justin Jeng**: Friday at 2pm PST
-* **Sandip Panesar**: Thursday at 1pm PST
+* **
+* **Gurdit Chahal**: TBD
+* **Justin Jeng**: TBD
+* **
 
 Office hours are for the whole class; students from any section are welcome to attend any of the times above.
 
@@ -60,12 +61,11 @@ Your grade report can be found at [https://w266grades.appspot.com](https://w266g
 Your grade will be determined as follows:
 * **Weekly Assignments**: 40%
 * **Final Project**: 60%
-* **Participation**: Up to 10% bonus
+
 
 There will be a number of smaller [assignments](../assignment/) throughout the term for you to
 exercise what you learned in async and live sessions. Some assignments may be more difficult than others, and may be weighted accordingly.
 
-Participation will be graded holistically, based on live session participation as well as participation on Piazza (or other activities that improve the course this semester or into the future). Do not stress about this part.
 
 
 ### Letter Grades
@@ -145,7 +145,7 @@ We'll update the table below with assignments as they become available, as well 
 
 *Dates are tentative:* assignments in particular may change topics and dates.  (Updated slides for each week will be posted during the live session week.)
 
-### Live Session Slides: [[available with @berkeley.edu address](https://drive.google.com/drive/folders/TBD)]
+### Live Session Slides: [[available with @berkeley.edu address](https://drive.google.com/drive/folders/17aVUeX2LiEJuX5d8YqIySHl_kT_zdUeY?usp=sharing)]
 
 ### Deliverables
 
@@ -167,7 +167,7 @@ will be released around the last live session of the week and due approximately 
     <li>Google Cloud
   </ul></td>
   <td></td>
-  <td>TBD</td>
+  <td>Jan 8</td>
 </tr>
 
 

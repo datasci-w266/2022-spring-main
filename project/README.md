@@ -82,7 +82,7 @@ For project ideas, take a look at the final projects from [previous](example-com
 - Analysis of gender roles or power dynamics in movie dialogues
 - Explore techniques for interpreting “black box” / neural models for language
 
-Additionally, we've put some of the top projects from previous semesters in [a drive folder](https://drive.google.com/drive/folders/TBD).
+Additionally, we've put some of the top projects from previous semesters in [a drive folder](https://drive.google.com/drive/folders/1YEqXCuRlNy1OUORTCycSWjX1Xt8I_3nd?usp=sharing).
 
 Also see below for NLP conferences - [ACL](https://www.aclweb.org/anthology/events/acl-2020/) and [EMNLP](https://www.aclweb.org/anthology/events/emnlp-2020/) are the top two, and you can find plenty of interesting ideas from the recent proceedings!
 
