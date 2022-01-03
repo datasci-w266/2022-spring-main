@@ -18,7 +18,7 @@ Accounts, Projects and Billing
 ![Create project](screenshots/3-newprojectdetails-adv-options.png "Create project")
 
 *  Create a new browser tab.
-*  In the new tab, visit https://gcp.secure.force.com/GCPEDU?cid=l031GC%2FyFDXrk6bYvnuDIihzoSx2AiMignmYToa7PSnB2oug%2BAZH9h%2BiTNHT6veK/ request a coupon using your @berkeley.edu email address, and follow the instructions.
+*  In the new tab, visit https://gcp.secure.force.com/GCPEDU?cid=kPPwMp0KGq6%2FTKQnLxpJXcO%2FTUBjPpS%2F11g9lt%2FOgiHl27iQMi6hs%2FjrS0O4dL6O/ request a coupon using your @berkeley.edu email address, and follow the instructions.
 *  Switch back to the original tab.
 *  From the "hamburger" menu in the upper left corner, select Billing.
 
@@ -26,25 +26,27 @@ Accounts, Projects and Billing
 
 *  Verify the project is associated with your Compute Engine credits. You should see the course name in the Promotion ID field.
 
-Start the Compute Engine instance
+Configure and Start your Compute Engine instance
 ---------------------------------
 *  From the hamburger menu again, select "Compute Engine"
 *  (You may see a dialog box for a minute or two as Compute Engine initializes for your project.)
 *  Click "Create Instance"
-*  Fill in the instance creation form as shown below. Don't worry about the cost; the rate shown assumes always-on, so you shouldn't come close to the limit if you shut down when not in use.
+*  Fill in the instance creation form as shown below. Don't worry about the cost; the rate shown assumes always-on, so you shouldn't come close to the limit if you shut down when not in use.  
 
     * Name: w266
     * Zone: (pick one close to you)
     * Machine Type: First Gen - N1- 1 vCPUs, 3.75 GB
-    * Boot Disk: Ubuntu 18.04 LTS (modify boot disk size to **100 GB**)
+    * Boot Disk: Ubuntu 18.04 LTS (modify boot disk size to **100 GB** and standard persistent)
     * (Optionally) allow HTTP(s) traffic
 
 ![Create instance](screenshots/6-createinstance.png "Create instance")
 
-*  Before clicking "Create", be absolutely sure that you have increased the disk space to at least 100 GB and have selected Ubuntu as your OS (the setup script that you'll run in a later step may not work otherwise).
+*  Before clicking "Create", be absolutely sure that you have increased the disk space to 50 to 100 GB and have selected Ubuntu as your OS (the setup script that you'll run in a later step may not work otherwise).  Also make sure you have selected the Standard Persistent Disk.
+
+![Check Boot Disk](screenshots/6.5-bootdisk.png "Check Boot Disk")
 *  Click "Create" at the bottom of the form.  You may need to wait a minute or two for your N1 instance to boot.
 
-The settings above (First Gen - N1, 1 vCPU, 3.75 GB memory) should be fine for most parts of most assignments. For some assignments (particularly, training neural networks) and for your final project, you may need more juice. Fortunately, it's very easy to resize an instance. Go to the [VM Instances](https://console.cloud.google.com/compute/instances) page, shut down your instance, and select "Edit" to select the number of CPUs and amount of RAM you need. When you boot up the instance and log in, your configuration will be exactly the same, just with more power.
+The settings above (First Gen - N1, 1 vCPU, 3.75 GB memory) should be fine for most parts of your assignments. For your final project, you may need more juice. Fortunately, it's very easy to resize an instance. Go to the [VM Instances](https://console.cloud.google.com/compute/instances) page, shut down your instance, and select "Edit" to select the number of CPUs and amount of RAM you need. When you boot up the instance and log in, your configuration will be exactly the same, just with more power.  Alternately, for projects, you can use a free Colab notebook configured with either a GPU or TPU.
 
 Connecting to your instance
 ---------------------------
@@ -52,7 +54,7 @@ Google Cloud provides a handy in-browser SSH client. Click "SSH" on the VM Insta
 
 Setting up your instance
 ------------------------
-In your terminal **on the remote instance**, type the commands shown below.
+In your terminal **on the remote instance**, individually type each of the commands shown below.
 
 `setup.sh` installs Anaconda and TensorFlow. There are a handful of times you'll need to accept the license agreement or confirm an install path.  Just accept the defaults (though we won't be using visual studio in this course, so you can answer no to that if you wish), and **allow it to modify your .bashrc file**.
 
@@ -64,9 +66,11 @@ git clone https://github.com/datasci-w266/2022-spring-main.git ~/w266
 source ~/.bashrc
 ```
 
+Don't forget to source your .bashrc file (last line above).  When you do that the command prompt in your terminal will begin with **(base)**
+
 _Note: if you're not using a Cloud instance, but are running Ubuntu on your laptop or a VM, you can also use `setup.sh` or cherry-pick commands from it to install the necessary packages._
 
-Run a notebook and connect to it from your local machine
+Run a notebook on your instance and connect to it from your local machine
 --------------------------------------------------------
 In order to use Jupyter notebooks, we need to set up an SSH tunnel. This will allow the browser on your local machine to connect directly to the Jupyter server and Python backend running on your cloud instance. _All the below commands should be run **on your laptop**, unless specified otherwise._
 

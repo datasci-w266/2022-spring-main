@@ -17,7 +17,7 @@ bash "$ANACONDA_INSTALLER"
 source ${HOME}/.bashrc
 
 ${HOME}/anaconda3/bin/pip install --upgrade pip
-${HOME}/anaconda3/bin/pip install --upgrade tensorflow==2.4.1
+${HOME}/anaconda3/bin/pip install --upgrade tensorflow==2.6.2
 ${HOME}/anaconda3/bin/jupyter notebook --generate-config
 
 # Copy Jupyter config
