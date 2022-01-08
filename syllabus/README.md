@@ -33,16 +33,15 @@ Understanding language is fundamental to human interaction. Our brains have evol
 
 **Teaching Staff Office Hours:**
 
-* **Mark Butler**: Friday at noon PST
+* **Mark Butler**: Friday at noon PST and Monday at 4pm PST
 * **Daniel Cer**: Monday at noon PST
-* **Peter Grabowski**: Tuesday at 1pm PST
+* **Peter Grabowski**: Tuesday at 3:30pm PST
 * **Joachim Rahmfeld**: Tuesday at 5:30pm PST
 * **Mike Tamir/Paul Spiegelhalter**: Wednesday immediately after his live session
-* **Natalie Ahn**: TBD
-* **
+* **Natalie Ahn**: Wednesday at 6pm PST
 * **Gurdit Chahal**: TBD
-* **Justin Jeng**: TBD
-* **
+* **Justin Jeng**: Tuesday at 2pm PST
+* **Sandip Panesar: Thursday at 1pm PST
 
 Office hours are for the whole class; students from any section are welcome to attend any of the times above.
 
@@ -168,6 +167,17 @@ will be released around the last live session of the week and due approximately 
   </ul></td>
   <td></td>
   <td>Jan 8</td>
+</tr>
+
+<tr> <!-- a1 -->
+  <td><strong><a href="../assignment/a1" target="_blank">Assignment&nbsp;1</a></strong>
+  <td><strong>Assignment 1</strong>
+  <ul>
+    <li>Information Theory
+	<li>Probability
+  </ul></td>
+  <td></td>
+  <td>Jan&nbsp;16</td>
 </tr>
 
 
