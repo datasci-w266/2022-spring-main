@@ -303,7 +303,7 @@ will be released around the last live session of the week and due approximately 
   <li>Convolutional neural networks for NLP
   </ul></td>
   <td><ul>
-  <li>Read: <a href="http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/" target="_blank">Understanding Convolutional Neural Networks for NLP</a>
+  <li>Read: <a href="http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/" target="_blank">Understanding Convolutional Neural Networks for NLP (no longer live)</a>&nbsp;<a href="https://web.archive.org/web/20200119215959/http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/" target="_blank">Instead use Wayback Machine link to this excellent resource</a>
   <li>Read: <a href="https://arxiv.org/abs/1408.5882" target="_blank">Convolutional Neural Networks for Sentence Classification</a> (Yoon Kim, 2014)
 </ul></td>
 </tr>
