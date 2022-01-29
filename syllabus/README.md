@@ -36,12 +36,12 @@ Understanding language is fundamental to human interaction. Our brains have evol
 * **Mark Butler**: Friday at noon PST and Monday at 4pm PST
 * **Daniel Cer**: Monday at noon PST
 * **Peter Grabowski**: Tuesday at 3:30pm PST
-* **Joachim Rahmfeld**: Tuesday at 5:30pm PST
+* **Joachim Rahmfeld**: Wednesday at 5:30pm PST
 * **Mike Tamir/Paul Spiegelhalter**: Wednesday immediately after his live session
 * **Natalie Ahn**: Wednesday at 6pm PST
 * **Gurdit Chahal**: TBD
 * **Justin Jeng**: Tuesday at 2pm PST
-* **Sandip Panesar: Thursday at 1pm PST
+* **Sandip Panesar**: Thursday at 1pm PST
 
 Office hours are for the whole class; students from any section are welcome to attend any of the times above.
 
@@ -191,8 +191,6 @@ will be released around the last live session of the week and due approximately 
   <td>Jan&nbsp;23</td>
 </tr>
 
-
-
 <tr> <!-- project proposal -->
   <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
   <td>
@@ -200,6 +198,18 @@ will be released around the last live session of the week and due approximately 
   </td>
   <td></td>
   <td>Jan&nbsp;29</td>
+</tr>
+
+
+<tr> <!-- a3 -->
+  <td><strong><a href="../assignment/a3" target="_blank">Assignment&nbsp;3</a></strong>
+  <td><strong>Assignment 3</strong>
+  <ul>
+    <li>Embeddings
+    <li>ML Fairness
+  </ul></td>
+  <td></td>
+  <td>Feb&nbsp;6</td>
 </tr>
 
 
@@ -339,7 +349,7 @@ will be released around the last live session of the week and due approximately 
   </ul>
   <p>
   <a href="../materials/embeddings/embeddings.ipynb" target="_blank">[Word&nbsp;Embeddings&nbsp;Notebook]</a>
-  <br><a href="../materials/nplm/nplm.ipynb" target="_blank">[NPLM Notebook]</a>
+  <br><a href="../materials/nplm/nplm_modified_with_keras.ipynb" target="_blank">[NPLM Notebook]</a>
   </td>
 </tr>
 
