@@ -247,6 +247,17 @@ will be released around the last live session of the week and due approximately 
 </tr>
 
 
+<tr> <!-- a7 -->
+  <td><strong><a href="../assignment/a7" target="_blank">Assignment&nbsp;7</a></strong>
+  <td><strong>Assignment 7</strong>
+  <ul>
+    <li>Various Topics
+  </ul></td>
+  <td></td>
+  <td>Mar&nbsp;6</td>
+</tr>
+
+
 <tr><!--- Project Reports -->
   <td><strong><a href="../project/#final-submission" target="_blank">Project&nbsp;Reports</a></strong>
   </td>
@@ -486,6 +497,7 @@ will be released around the last live session of the week and due approximately 
   <li>Classical summarization algorithms
   <li>Evaluating generated summaries
   <li>Neural summarization architectures
+  <li>Question answering
   </ul></td>
   <td><ul>
   <li>Skim: <a href="https://www.cs.cmu.edu/~afm/Home_files/Das_Martins_survey_summarization.pdf" target="_blank">A Survey on Automatic Text Summarization</a> (Das and Martins, 2007)
@@ -504,7 +516,7 @@ will be released around the last live session of the week and due approximately 
   <td>No Readings</td>
 </tr> -->
 
- <tr><!--- Practical Machine Learning  week 11 -->
+ <tr><!--- Document Size Operations  week 11 -->
   <td><strong>Week&nbsp;11</strong><br>(Mar&nbsp;14)</td>
   <td>No Async</td>
   <td><ul>
